@@ -1,0 +1,41 @@
+*,
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: normal 16px/1.5 "Helvetica Neue",sans-serief;
+    background-color: rgb(75, 74, 74);
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+img{
+    padding-right: 50px;
+}
+.intro{
+    background: #bebb0d96;
+    padding: 100px 0;
+    align-self: center;
+    
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 2.5rem;
+}
