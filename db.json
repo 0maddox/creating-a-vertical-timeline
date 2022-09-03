@@ -1,20 +1,30 @@
 {
- "{day 1":[{
-    "1":"Video-Variables and Data Types",
-    "2":"JavaScript Variables",
-    "3":"JavaScript Variables",   
-    "4":"Review: Variables Lab",
-    "5":"Review Strings Lab",
-    "6":"comparisons in JavaScript",
-    "7":"Video JavaScript Conditionals",
-    "8":" Review Conditionals",
-    "9":"Logical Operators",
-    "10":"Review Control Flow Lab",
-    "11":"Review Control Flow Lab",
-    "12":"JavaScript Fundamentals Quiz"     
+ "{days":[{
+   "id":1,
+   "title":"Javascricpt Fundamental",
+   "description":"{Video-Variables and Data Types,JavaScript Variables,Review: Variables Lab,Review Strings Lab,comparisons in JavaScript,Video JavaScript Conditionals,Review Conditionals,Logical Operators,Review Control Flow Lab,Review Control Flow Lab,JavaScript Fundamentals Quiz}"  
     },
     {
-
+      "id":2,
+      "title":"Functions in JavaScript",
+      "description":"{Video- Functions,Review: Functions,Functions Lab,Functions: Continued,Video: Arrow Functions,Arrow Functions,Callback Functions,First-Class Functions,JavaScript Advanced Functions: First-Class Functions Lab,Functions in JavaScript Quiz}"
+    },
+    
+    {
+      "id":3,
+      "title":"Working with Data Structures in JavaScript",
+      "description":"{Video: Arrays and Objects,Arrays,Array Methods,Arrays Lab,Objects,Modifying Objects,Objects Lab,Review: Debugging,Video: JavaScript Loops,Looping Lab,Object Iteration,Traversing Nested Objects,Working with Objects in JavaScript Quiz}"
+    },
+    
+    {
+      "id":4,
+      "title":"Video Series: Array Iteration",
+      "description":"{Video: First Class Functions,Video: First Class Functions Part 2,Video: .map,Video: .map Part 2,Video: .find,Video: .reduce,Video: .forEach}"
+    },
+    {
+      "id":5,
+      "title":"Introducing The Three Pillars of JavaScript",
+      "description":"{Defining Front-End Web Programming,Stitching Together the Three Pillars,Video: Intro to DOM,Introduction to the DOM,Changing The DOM with DevTools and JavaScript,The DOM Is a Tree,Video: DOM Selectors,JavaScript Query Selector Methods,Video: Changing DOM Elements,Creating and Inserting DOM Nodes Lab}"
     }
  ]
  }
