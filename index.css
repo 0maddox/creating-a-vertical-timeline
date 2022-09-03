@@ -72,3 +72,48 @@ h1{
     padding:15px;
     background: #f45b69;
 }
+
+.timeline ul li:nth-child(odd)ol ::before{
+    left:-15px;
+    border-width: 8px 16px 8px 0;
+    border-color:
+    transparent #f45b69
+    transparent transparent;
+}
+.timeline ul li:nth-child(even) ol {
+    left:-439px;
+}
+.timeline ul li:nth-child(even)ol ::before{
+    right: -15px;
+    border-width: 8px 0px 8px 16px;
+    border-color: 
+  transparent transparent
+  transparent #f45b69;
+}
+
+day{
+    display:block;
+    font-size:1.2rem;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+/*effects*/
+.timeline ul li::after {
+    transition: margin-right 0.5s ease-in-out;
+  }
+
+.timeline ul li ol{
+    visibility: hidden;
+    opacity : 0;
+    transition: all 0.5s ease-in-out
+}
+
+.timeline ul li:nth-child(odd)ol {
+    transform:
+    translate3d(-200px, 0)
+}
+.timeline ul li.i-view ol{
+    transform:none;
+    visibility: visible;
+    opacity:1;
+}

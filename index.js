@@ -10,8 +10,23 @@
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
   }
-})
+//callbacks
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isElementInViewport(items[i])) {
+        items[i].classList.add("in-view");
+      }
+    }
+  }
 
-fetch("http://localhost:3000/days")
+  // event listeners
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+
+  fetch("http://localhost:3000/days")
 .then((response) => response.json())
 .then((data) => console.log(data))
+})();
+
+
