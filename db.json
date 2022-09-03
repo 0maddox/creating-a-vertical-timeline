@@ -1,5 +1,6 @@
 {
- "{days":[{
+  "days":[
+   {
    "id":1,
    "title":"Javascricpt Fundamental",
    "description":"{Video-Variables and Data Types,JavaScript Variables,Review: Variables Lab,Review Strings Lab,comparisons in JavaScript,Video JavaScript Conditionals,Review Conditionals,Logical Operators,Review Control Flow Lab,Review Control Flow Lab,JavaScript Fundamentals Quiz}"  
