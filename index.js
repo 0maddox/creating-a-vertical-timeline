@@ -1,3 +1,14 @@
+document.addEventListener(`DOMContentloaded`,()=>{
+fetch("http://localhost:3000/days")
+   .then((response) => response.json())
+   .then((days) => 
+    displayDays(days));
+  }
+  )
+
+  function displayDays(days){
+    let dayDisplay= document.getElementById(`days`)
+  }
 (function () {
     var items = document.querySelectorAll(".timeline li");
     function isElementInViewport(el) {
@@ -23,10 +34,6 @@
   window.addEventListener("load", callbackFunc);
   window.addEventListener("resize", callbackFunc);
   window.addEventListener("scroll", callbackFunc);
-
-  fetch("http://localhost:3000/days")
-.then((response) => response.json())
-.then((data) => console.log(data))
-})();
-
+})()
+ 
 
