@@ -1,16 +1,77 @@
  {let arr = []
    let daysString =``
-   const title =document.querySelector(`.inview`)
+   const title =document.querySelector(`.inview1`)
     async function fetchData (){
     const response = await fetch("http://localhost:3000/days")
     arr = await response.json()
     arr.forEach(items =>{
-      daysString += `<div class ="titles-container">${items.id}, ${items.title}, ${items.description}</div>`
+      daysString = `<div>${items.id}, ${items.title}, ${items.description}</div>`
      })
      title.innerHTML = daysString
   }
   fetchData()
 }
+
+{let arr = []
+  let daysString =``
+  const title =document.querySelector(`.inview2`)
+   async function fetchData (){
+   const response = await fetch("http://localhost:3000/days")
+   arr = await response.json()
+   arr.forEach(items =>{
+     daysString = `<div>${items.id}, ${items.title}, ${items.description}</div>`
+    })
+    title.innerHTML = daysString
+ }
+ fetchData()
+}
+
+{let arr = []
+  let daysString =``
+  const title =document.querySelector(`.inview3`)
+   async function fetchData (){
+   const response = await fetch("http://localhost:3000/days")
+   arr = await response.json()
+   arr.forEach(items =>{
+     daysString = `<div>${items.id}, ${items.title}, ${items.description}</div>`
+    })
+    title.innerHTML = daysString
+ }
+ fetchData()
+}
+
+{let arr = []
+  let daysString =``
+  const title =document.querySelector(`.inview4`)
+   async function fetchData (){
+   const response = await fetch("http://localhost:3000/days")
+   arr = await response.json()
+   arr.forEach(items =>{
+     daysString = `<div>${items.id}, ${items.title}, ${items.description}</div>`
+    })
+    title.innerHTML = daysString
+ }
+ fetchData()
+}
+
+{let arr = []
+  let daysString =``
+  const title =document.querySelector(`.inview5`)
+   async function fetchData (){
+   const response = await fetch("http://localhost:3000/days")
+   arr = await response.json()
+   arr.forEach(items =>{
+     daysString = `<div>${items.id}, ${items.title}, ${items.description}</div>`
+    })
+    title.innerHTML = daysString
+ }
+ fetchData()
+}
+
+
+
+
+
 
 (function () {
     "use strict";
