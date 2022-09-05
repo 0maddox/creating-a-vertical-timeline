@@ -1,29 +1,34 @@
 {
   "days":[
    {
-   "id": "Day 1",
+   "id":1,
+   "value":"Day 1",
    "title":"Javascricpt Fundamental",
    "description":"Video-Variables and Data Types,JavaScript Variables,Review: Variables Lab,Review Strings Lab,comparisons in JavaScript,Video JavaScript Conditionals,Review Conditionals,Logical Operators,Review Control Flow Lab,Review Control Flow Lab,JavaScript Fundamentals Quiz"  
     },
     {
-      "id":"Day 2",
+      "id":2,
+      "value": "Day 2",
       "title":"Functions in JavaScript",
       "description":"Video- Functions,Review: Functions,Functions Lab,Functions: Continued,Video: Arrow Functions,Arrow Functions,Callback Functions,First-Class Functions,JavaScript Advanced Functions: First-Class Functions Lab,Functions in JavaScript Quiz"
     },
     
     {
-      "id":"Day 3",
+      "id":3,
+      "value":"Day 3",
       "title":"Working with Data Structures in JavaScript",
       "description":"Video: Arrays and Objects,Arrays,Array Methods,Arrays Lab,Objects,Modifying Objects,Objects Lab,Review: Debugging,Video: JavaScript Loops,Looping Lab,Object Iteration,Traversing Nested Objects,Working with Objects in JavaScript Quiz"
     },
     
     {
-      "id":"Day 4",
+      "id":4,
+      "value":"Day 4",
       "title":"Video Series: Array Iteration",
       "description":"Video: First Class Functions,Video: First Class Functions Part 2,Video: .map,Video: .map Part 2,Video: .find,Video: .reduce,Video: .forEach}"
     },
     {
-      "id":"Day 5",
+      "id":5,
+      "value": "Day 5",
       "title":"Introducing The Three Pillars of JavaScript",
       "description":"Defining Front-End Web Programming,Stitching Together the Three Pillars,Video: Intro to DOM,Introduction to the DOM,Changing The DOM with DevTools and JavaScript,The DOM Is a Tree,Video: DOM Selectors,JavaScript Query Selector Methods,Video: Changing DOM Elements,Creating and Inserting DOM Nodes Lab"
     }
