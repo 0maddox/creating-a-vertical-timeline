@@ -47,7 +47,7 @@ h1{
     background:456990;
     padding: 50px 0;
 }
-.timeline ol li{
+.timeline ul li{
     list-style-type: none;
     position :relative;
     width: 6px;
@@ -73,7 +73,7 @@ h1{
     0%, 100%, 50%, 50%, 100%, 0%, 50%)
 }
 
-.timeline-rhombus ul li ol ::before{
+.timeline-rhombus ul li div ::before{
     bottom:12px;
 }
 
@@ -129,14 +129,14 @@ h1{
     align-items: center;
     padding: 5px;
     color: rgb(10, 2, 2);
-    background: rgba(255, 255, 255, 0.65);
+    background: rgba(62, 31, 172, 0.65)
   }
   
   .page-footer a {
     display: flex;
     margin-left: 4px;
   }
-.timeline ul li ol{
+.timeline ul li div{
     position:relative;
     bottom: 0;
     width:400 px;
@@ -173,7 +173,7 @@ day{
     transition: margin-right 0.5s ease-in-out;
   }
 
-.timeline ul li ol{
+.timeline ul li div{
     visibility: hidden;
     opacity : 0;
     transition: all 0.5s ease-in-out
@@ -183,14 +183,14 @@ day{
     transform:
     translate3d(-200px, 0)
 }
-.timeline ul li.i-view ol{
+.timeline ul li.in-view div{
     transform:none;
     visibility: visible;
     opacity:1;
 }
 /*general media queries*/
 @media screen and (max-width: 900px){
-    .timeline ul li ol {
+    .timeline ul li div {
         width:250px;
     }
     .timeline ul li:nth-child(even)ol {
@@ -200,7 +200,7 @@ day{
 @media screen and(max-width:600px){
     .timeline ul li{margin-left:20px;
     }
-    .timeline ul li ol{
+    .timeline ul li div{
         width: calc(100vw-091px);
     }
     .timeline ul li:nth-child(even)ol{
