@@ -228,4 +228,25 @@ time {
 .page-footer a {
   display: flex;
   margin-left: 4px;
+} 
+
+.rounded-social-buttons .social-button {
+  background-color: #2e8e6571;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  align-content: right;
+  color: #ebebf5ce;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
 }
