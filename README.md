@@ -23,6 +23,8 @@ You ca use either the SSH or HTTPS to clone for contributions to your local pc. 
 Live site
 Project available Here: https://0maddox.github.io/creating-a-vertical-timeline/
 
+Demo video link :https://drive.google.com/file/d/1x4SK4g2x_f1kIa5AdikCW2bmLDR8gdiQ/view?usp=sharing
+
 License
 MIT LICENSE
 
