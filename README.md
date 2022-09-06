@@ -4,7 +4,11 @@ This project  aims at aiding learners of various institutions to acess already p
 
 This project is meant to guide learners in daily content interaction.
 
-Using the mouse wheel up events display from either right or left.
+Using the mouse wheel up events display from either right or left.first initialize the terminal api by running
+1.npm install -g json-server
+2.json-server --watch db.json
+then refresh on browser
+
 
 Languages used
 HTML5 Javascript CSS
